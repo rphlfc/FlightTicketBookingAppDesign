@@ -1,6 +1,6 @@
 # Flight Ticket Booking App Design
 
-Encontrei no Dribbble esse [layout](https://dribbble.com/shots/14133984/attachments/5757973?mode=media) de aplicativo de busca de voos e implementei a tela de resultado da busca com SwiftUI no iOS 13.
+Encontrei no Dribbble esse [layout](https://dribbble.com/shots/14133984-Flight-Ticket-Booking-App-Design) de aplicativo de busca de voos e implementei a tela de resultado da busca com SwiftUI no iOS 13.
 
 ## Screenshots
 <p align="center">
