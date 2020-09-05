@@ -13,6 +13,12 @@
 		6469B6E52503DA26003EB98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469B6E42503DA26003EB98A /* Assets.xcassets */; };
 		6469B6E82503DA26003EB98A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469B6E72503DA26003EB98A /* Preview Assets.xcassets */; };
 		6469B6EB2503DA26003EB98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469B6E92503DA26003EB98A /* LaunchScreen.storyboard */; };
+		6469B6F32503E4DB003EB98A /* DateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469B6F22503E4DB003EB98A /* DateListView.swift */; };
+		6469B6F62503E519003EB98A /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469B6F52503E519003EB98A /* TopView.swift */; };
+		6469B6F82503ED30003EB98A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469B6F72503ED30003EB98A /* CardView.swift */; };
+		6469B6FA2503ED68003EB98A /* AvailableFlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469B6F92503ED68003EB98A /* AvailableFlightsView.swift */; };
+		6469B6FC2503F2A2003EB98A /* DateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469B6FB2503F2A2003EB98A /* DateItem.swift */; };
+		6469B6FF2504006E003EB98A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6469B6FE2504006E003EB98A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6469B6E72503DA26003EB98A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6469B6EA2503DA26003EB98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6469B6EC2503DA26003EB98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6469B6F22503E4DB003EB98A /* DateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListView.swift; sourceTree = "<group>"; };
+		6469B6F52503E519003EB98A /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		6469B6F72503ED30003EB98A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = FlightTicketBookingAppDesign/CardView.swift; sourceTree = SOURCE_ROOT; };
+		6469B6F92503ED68003EB98A /* AvailableFlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableFlightsView.swift; sourceTree = "<group>"; };
+		6469B6FB2503F2A2003EB98A /* DateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateItem.swift; sourceTree = "<group>"; };
+		6469B6FE2504006E003EB98A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 		6469B6D22503DA23003EB98A = {
 			isa = PBXGroup;
 			children = (
+				6469B6FE2504006E003EB98A /* README.md */,
 				6469B6DD2503DA23003EB98A /* FlightTicketBookingAppDesign */,
 				6469B6DC2503DA23003EB98A /* Products */,
 			);
@@ -56,6 +69,8 @@
 		6469B6DD2503DA23003EB98A /* FlightTicketBookingAppDesign */ = {
 			isa = PBXGroup;
 			children = (
+				6469B6FD2503F2A6003EB98A /* Models */,
+				6469B6F42503E4E2003EB98A /* Views */,
 				6469B6DE2503DA23003EB98A /* AppDelegate.swift */,
 				6469B6E02503DA23003EB98A /* SceneDelegate.swift */,
 				6469B6E22503DA23003EB98A /* ContentView.swift */,
@@ -73,6 +88,25 @@
 				6469B6E72503DA26003EB98A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6469B6F42503E4E2003EB98A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6469B6F72503ED30003EB98A /* CardView.swift */,
+				6469B6F92503ED68003EB98A /* AvailableFlightsView.swift */,
+				6469B6F22503E4DB003EB98A /* DateListView.swift */,
+				6469B6F52503E519003EB98A /* TopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6469B6FD2503F2A6003EB98A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6469B6FB2503F2A2003EB98A /* DateItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +169,7 @@
 			files = (
 				6469B6EB2503DA26003EB98A /* LaunchScreen.storyboard in Resources */,
 				6469B6E82503DA26003EB98A /* Preview Assets.xcassets in Resources */,
+				6469B6FF2504006E003EB98A /* README.md in Resources */,
 				6469B6E52503DA26003EB98A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6469B6DF2503DA23003EB98A /* AppDelegate.swift in Sources */,
+				6469B6F62503E519003EB98A /* TopView.swift in Sources */,
 				6469B6E12503DA23003EB98A /* SceneDelegate.swift in Sources */,
+				6469B6FA2503ED68003EB98A /* AvailableFlightsView.swift in Sources */,
+				6469B6F32503E4DB003EB98A /* DateListView.swift in Sources */,
+				6469B6F82503ED30003EB98A /* CardView.swift in Sources */,
+				6469B6FC2503F2A2003EB98A /* DateItem.swift in Sources */,
 				6469B6E32503DA23003EB98A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

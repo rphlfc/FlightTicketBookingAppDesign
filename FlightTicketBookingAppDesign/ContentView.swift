@@ -10,7 +10,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        GeometryReader { geometry in
+            VStack {
+                TopView()
+                
+                Spacer()
+                
+                DateListView()
+                
+                Spacer()
+                    
+                AvailableFlightsView()
+                    .frame(height: geometry.size.height * 0.75)
+            }
+            .edgesIgnoringSafeArea(.bottom)
+        }
     }
 }
 
